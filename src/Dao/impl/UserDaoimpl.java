@@ -16,8 +16,16 @@ public class UserDaoimpl  implements UserDao {
 			for(User user2:list) {
 				System.out.println(user2.getName()+","
 						+user2.getAge());
-			}
-		}
+			}	
 	}
+	
+	@Override
+	public void update(User user) {
+		System.out.println("执行修改用户信息的操作");
+	}
+
+
+
+}
 
 
